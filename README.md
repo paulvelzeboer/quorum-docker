@@ -7,13 +7,13 @@ cd quorum-docker
 docker build -t quorum .
 
 ## Using Quorum Docker Image
-	docker run -ti --name quoruminstance quorum bash
+	docker run -ti --name quoruminstance paulvelzeboer/quorum-docker bash
 
 ## Initialize 7 Nodes, start/stop
 
 	root@CONTAINER:/# cd /quorum-examples/examples/7nodes/
-	root@CONTAINER:/quorum-examples/examples/7nodes# ./init.sh
-	root@CONTAINER:/quorum-examples/examples/7nodes# ./start.sh
+	root@CONTAINER:/quorum-examples/examples/7nodes# ./init.sh   #need update!
+	root@CONTAINER:/quorum-examples/examples/7nodes# ./start.sh  #need update!
 	root@CONTAINER:/quorum-examples/examples/7nodes# ./stop.sh
 
 
